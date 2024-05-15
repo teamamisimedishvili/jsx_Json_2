@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        // JSON.stringify
+        let student = {
+            name: "გიორგი",
+            age: 22,
+            amail: "giorgi@22.ge",
+            wife: 'უცოლო'
+        };
+
+        let json = JSON.stringify(student);
+        document.write(json);
+
+
+        //  JSON.parse
+
+
+        var str = '{"wigni":"მე ვხედავ მზეს", "filmi":"კუკარაჩა", "mwerali": "ნოდარ დუმბაძე"}';
+
+        var str1 = JSON.parse(str);
+
+        console.log(str1.wigni + ",");
+        console.log(str1.filmi + ",");
+        console.log(str1.mwerali);
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
